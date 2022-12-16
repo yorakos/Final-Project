@@ -13,6 +13,7 @@
     require('db.php');
     if (isset($_REQUEST['FirstName'])) {
         $FirstName = stripslashes($_REQUEST['FirstName']);
+        //$FirstName = stripslashes($_REQUEST['FirstName']);
         $FirstName = mysqli_real_escape_string($con, $FirstName);
         $LastName = stripslashes($_REQUEST['LastName']);
         $LastName = mysqli_real_escape_string($con, $LastName);
