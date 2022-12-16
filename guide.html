@@ -9,42 +9,90 @@
     </script>
     <style>
         div#tekst_sverhu_kartinki {
-position: relative;
-}
+       position: relative;
+      
+        }
 body {
-    background-color: beige;
+    background-color: rgb(219, 219, 199);
 }
 #soz {
-    border-right: solid 3px rgba(0,255,0,.75);
-  white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
-  font-size: 28px;
-  color: rgba(255,255,255,.70);
-  animation: animated-text 4s steps(10) 0.5s 0.5 normal both,
+   border-right: solid 2px yellow;
+   white-space: nowrap;
+   overflow: hidden;    
+   font-family: Georgia, serif;  
+   color:black; letter-spacing: -5px;
+   font-size: 70px;
+  animation: animated-text 3s steps(20) 0.5s 0.5 normal both,
              animated-cursor 600ms steps(10) infinite;
+
 }
 @keyframes animated-text{
-  from{width: 0;}
-  to{width: 472px;}
+  from{width: 0px;}
+  to{width: 1380px;}
 }
 
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: blue;}
   to{border-right-color: transparent;}
+
+}
+.verticalLine {
+  border-left: solid rgb(192, 188, 188);
+  
+}
+.maincontent {
+    margin-left:400px;
+    width:600px;
+
+}
+.maincontent h3 {
+    color:rgb(135, 134, 134);
+    line-height:25px;
+
+}
+.hovEffect:hover {
+    background-color: rgb(213, 71, 71);
+    width: 600px;
+    height: 400px;
+}
+.forButton {
+    width:250px;height:30px; background-color: rgb(123, 154, 107); position: absolute;
+                top: 10%;  
+                left: -5%; border-top-right-radius: 15px;border-bottom-right-radius: 15px;
+                text-align:center;    
+}
+.forButton a{
+    text-decoration:none
+}
+.forButton:hover {
+    transform: translateY(-0.4em);
+    box-shadow: 0px 10px 20px rgb(74, 71, 71);
 }
         </style>
         </head>
         <body>
+            <div class="verticalLine" style="margin-left:50px;padding-top: 60px;">
             <div id="tekst_sverhu_kartinki">
-                <img src="https://i.pinimg.com/originals/0f/91/bd/0f91bda2e9a8264fff6d2acd2e6c617f.jpg" style="object-fit:cover; width:1280px; height: 400px; font-family: Arial, Helvetica, sans-serif; margin-top:100px;">
-               <div class="city">
-                <h1 id="soz" style="font-family: Georgia, serif;; text-align: center; color:black; letter-spacing: -7px; font-size: 75px;"><strong>BEGINNER’S GUIDE</strong></h1>
-                 <h2>Straight from the files of Brimstone, this is the VALORANT Beginner’s Guide. Whether this is your first rotation or you're needing a refresher, we figure it’s best you take it from the Agent who’s seen it all before.</h2>
-
-              </div>
+                <div class="forButton"><a href="">GO TO ARTICLE LIST</a></div>
+                <img src="https://i.pinimg.com/originals/0f/91/bd/0f91bda2e9a8264fff6d2acd2e6c617f.jpg" style="object-fit:cover; width:1202px; height: 400px; font-family: Arial, Helvetica, sans-serif; ">
                 </div>
+               <div class="city">
+                <a>06/02/22 </a><span style="font-size:50px"> . </span><span style="color:red; letter-spacing: 1px;" ><strong>ANNOUNCEMENTS</strong></span>
+                <h1 id="soz"><strong>BEGINNER’S GUIDE</strong></h1>
+                <div class="maincontent">
+                <h3>This is a Beginner's Guide for Genshin Impact. This guide includes early game tips & tricks, how to play, character & weapon leveling, gacha, adventure rank, combat, and elements.
+                    <br >Below is what to know before your first game. Pay attention. Might learn something.
+                </h3>
+                <div class="hovEffect">
+                <p style="text-align:center"><img src="https://cdn.vox-cdn.com/thumbor/_iYk4zB2dHdcqTs6YF4cGuWhKqk=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21955650/genshin.jpg" style="width:500px;height:350px; border-radius: 5px;">
+                </p>
+                </div>
+              </div>
+              </div>
+             
+                </div>
+
         </body>
         </html>
