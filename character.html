@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: beige;
+    }
+    #onlyFor {
+        background-color: rgb(27, 25, 54);
+        
+        height: 800px;
+        display: flex;
+        animation: color 30s infinite linear;
+    }
+    ul button {
+        color:rgb(255, 252, 252);
+        font-size: 90px;
+    }
+    .astext {
+         background:none;
+         border:none;
+         margin:0;
+         padding:0;
+         cursor: pointer;
+         font-family: fantasy;
+    }
+    .astext:hover {
+         
+         transform: translateX(0.3em);
+    }
+    .astext:active {
+        color:rgb(121, 49, 49);
+    }
+    .astext:focus {
+        color:rgb(121, 49, 49);
+    }
+    :target {
+        color:rgb(121, 49, 49);
+    }
+    @keyframes color {
+  0%   { background: #094444ad; }
+  20%  { background: #acb5069c; }
+  40%  { background: #2d13a1ae; }
+  60%  { background: #0ba86785; }
+  80%  { background: #7401a988; }
+  100% { background: #b08fec; }
+}
+</style>
+<body>
+    <div id="onlyFor">
+        <ul style="width:200px; ">
+            <li><button class="astext" onclick="ozger1()">Ayaka</button></li>
+            <li><button class="astext" onclick="ozger2()">Albedo</button></li>
+            <li><button class="astext" onclick="ozger3()">Wanderer</button></li>
+            <li><button class="astext" onclick="ozger4()">Kazuha</button></li>
+            <li><button class="astext" onclick="ozger5()">Raiden</button></li>
+        </ul>
+        
+    <img id = "suret" src="https://www.gensh.in/fileadmin/Database/Characters/Xiao/Xiao.png" style="width:1000px; height:670px">
+    
+</div>
+<script>
+    function ozger1() { 
+        
+        document.getElementById("suret").src="https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Character_Kamisato_Ayaka_Full_Wish.png/revision/latest?cb=20221014024207";
+        src.style['-webkit-transform'] = 'rotate(90deg)';
+    }
+    function ozger2() { 
+        
+        document.getElementById("suret").src="https://i2.wp.com/gi-builds.sfo3.digitaloceanspaces.com/characters/albedo/header_image.png?strip=all&quality=10";
+       
+    }
+    function ozger3() { 
+        
+        document.getElementById("suret").src="https://static.wikia.nocookie.net/gensin-impact/images/d/de/Character_Wanderer_Full_Wish.png/revision/latest?cb=20221209194443";
+    }
+    function ozger4() {
+        document.getElementById("suret").src = "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Character_Kaedehara_Kazuha_Full_Wish.png/revision/latest?cb=20220507131548";
+    }
+    function ozger5() {
+        document.getElementById("suret").src = "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Character_Raiden_Shogun_Full_Wish.png/revision/latest?cb=20220507154003";
+    }
+    
+</script>
+</body>
+</html>
