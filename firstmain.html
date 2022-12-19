@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genshin-impact</title>
+    <meta name="title" content="Doclab - home" />
+    <meta
+      name="description"
+      content="This is a madical html template made by codewithsadee"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://play-lh.googleusercontent.com/vRd2gg6XmC3TRTM5wZZ8qwEc5LMUROh4whycLuiCSPB40tIxDYLT6V0BdCn486XiKQ0=w600-h300-pc0xffffff-pd"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.png" />
+  </head>
+
+  <body id="top" style="background-color: #ece8e1">
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="https://cdn2.steamgriddb.com/file/sgdb-cdn/logo_thumb/fd278a8f5571d3db556bd83198beb09a.png"
+            width="136"
+            height="46"
+            alt="Doclab home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="136"
+                height="46"
+                alt="Doclab home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="clsoe menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">about the game</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">Media</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">News</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">Leaderboard</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">Support</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">esports</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="btn has-before title-md">Play</a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+        <section
+          class="section hero"
+          style="
+            background-image: url('genshin-impact-2021-kp-2560x1440 (1).jpg');
+          "
+          aria-label="home"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle has-before" data-reveal="left">Keqing</p>
+
+              <h1 class="headline-lg hero-title" data-reveal="left">
+                All that is visible is real,
+                <br />
+                all things are fictitious
+              </h1>
+
+              <div class="hero-card" data-reveal="left">
+                <img
+                  src="1618328627_e4da3b7fbbce2345d7772 (1).png"
+                  width="550"
+                  height="447"
+                  loading="eager"
+                  alt="hero banner"
+                  class="w-100"
+                />
+              </div>
+            </div>
+
+            <figure class="hero-banner" data-reveal="right">
+              <img
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/de911b7-9a6675b5-753b-447e-9923-ca2d81af28bf.png/v1/fill/w_1280,h_1726,strp/keqing_genshin_impact_character_render_by_deg5270_de911b7-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcyNiIsInBhdGgiOiJcL2ZcLzVlNTg5NmE1LTRhNzktNDk2YS1iZWE0LTgxZjI2Y2ZhMjY1MFwvZGU5MTFiNy05YTY2NzViNS03NTNiLTQ0N2UtOTkyMy1jYTJkODFhZjI4YmYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WQmHetpnNRO0VSiqtMgzFQ8eRCmyDPIp_CcBiF0g4iE"
+                width="500"
+                height="427"
+                loading="eager"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="section blog" aria-labelledby="blog-label">
+          <div class="container">
+            <br /><br />
+            <h2
+              class="section-title headline-md text-center"
+              data-reveal="bottom"
+              style="font-size: 450%"
+            >
+              LATEST NEWS
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <img
+                    src="https://xboxplay.games/uploadStream/25202.jpg"
+                    alt=""
+                    style="width: 100%; height: 100%; border-radius: 2%"
+                  />
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="newspaper-outline"></ion-icon>
+                      <span class="span">NEWS</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    THE REBOOT WILL BEGIN AT 18:00 MOSCOW TIME
+                  </h3>
+
+                  <time class="title-sm date">18.12.22</time>
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                  style="
+                    background-image: url('https://i.pinimg.com/originals/3e/e7/45/3ee7459cfdbce3cce499d2fd0583f5a9.jpg');
+                  "
+                >
+                  <img
+                    src="https://ecdn.game4v.com/g4v-content/uploads/2021/09/24164940/mihoyo-1632476980-15.jpg"
+                    alt=""
+                    style="width: 100%; height: 100%; border-radius: 2%"
+                  />
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="code-slash-outline"></ion-icon>
+                      <span class="span">DEVELOPERS' CORNER</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    THE DEVELOPERS SAY THANK YOU
+                  </h3>
+
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >15.12.22</time
+                  >
+
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                  style="
+                    background-image: url('https://rare-gallery.com/mocahbig/422644-video-games-Genshin-Genshin-Impact-landscape.png');
+                  "
+                >
+                  <img
+                    src="https://s3.amazonaws.com/prod-media.gameinformer.com/styles/thumbnail/s3/2020/09/29/a845040b/site-ngt_live_template_new-day-2-2.jpg"
+                    alt=""
+                    style="width: 100%; height: 100%; border-radius: 2%"
+                  />
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="accessibility-outline"></ion-icon>
+                      <span class="span">COMMUNITY</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    LIVE BROADCASTS IN GENSHIN MOBILE
+                  </h3>
+
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >17.12.22</time
+                  >
+
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          class="section about"
+          aria-labelledby="about-label"
+          style="
+            background-image: url('https://images.igdb.com/igdb/image/upload/t_original/ar5q7.jpg');
+          "
+        >
+          <div class="container" style="margin-top: -100px">
+            <div class="about-content">
+              <p
+                class="section-subtitle title-lg has-after"
+                id="about-label"
+                data-reveal="left"
+                style="color: aliceblue"
+              >
+                EPISOD_05 // ACT 3 / YEAR 2
+              </p>
+
+              <h2 class="headline-md" data-reveal="left">MEASUREMENT</h2>
+              <br />
+              <ul class="tab-list" data-reveal="left">
+                <li>
+                  <button
+                    class="tab-btn active"
+                    style="border-radius: 0%; font-size: 145%"
+                  >
+                    OVERVIEW OF ACT 3
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <figure class="about-banner" data-reveal="right">
+              <img
+                src="https://64.media.tumblr.com/6ac9c73c28d6ce9ab4e74e7202871951/3f2885bda6ac220c-1d/s1280x1920/5400143058374ff9dad6debaf0434fbc7dc4caaf.png"
+                width="554"
+                height="678"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="service" aria-label="service">
+          <div class="container">
+            <ul class="service-list" style="background-color: #ececec">
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="https://genshin-info.ru/upload/resize_cache/iblock/b57/200_200_1d7a58ff99b324185ccb5ad5dfbdb5e85/shougun.webp"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Shogun Raiden</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="https://mmo-obzor.ru/content/genshin-impact/icon/Itto.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Arataki Itto</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="https://genshin.honeyhunterworld.com/img/ayato_066.webp"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Kamisato Ayato</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="https://genshin.honeyhunterworld.com/img/klee_029.webp"
+                      width="61"
+                      height="61"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Klee</a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section about" aria-labelledby="about-label">
+          <div class="container">
+            <div class="about-content">
+              <h2 class="headline-md" data-reveal="left">WE - Genshin</h2>
+
+              <p class="section-text" data-reveal="left">
+                Create a unique style and challenge yourself on the
+                international competitive scene. You have 13 rounds each for
+                attackers and defenders. Use the entire arsenal of weapons and
+                tactical developments. One round, one life. If you want to
+                survive, think faster than your opponent. Defeat opponents in
+                Ranked, Unranked, Deathmatch and Quick Spike Mode.
+              </p>
+
+              <ul class="tab-list">
+                <li>
+                  <button
+                    class="tab-btn"
+                    style="border: 1px solid rgb(0, 94, 255)"
+                  >
+                    Game Basics
+                  </button>
+                </li>
+
+                <li>
+                  <button
+                    class="tab-btn"
+                    style="border: 1px solid rgb(0, 94, 255)"
+                  >
+                    View all agents
+                  </button>
+                </li>
+
+                <li>
+                  <button
+                    class="tab-btn"
+                    style="border: 1px solid rgb(0, 94, 255)"
+                  >
+                    View all cards
+                  </button>
+                </li>
+              </ul>
+
+              <p class="section-text" data-reveal="left">
+                Play the "Sacred Call of the Seven", collect cards, make decks
+                ... find yourself a worthy opponent!
+              </p>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="https://media.tenor.com/KGB-h_xUI-cAAAAd/genshin-impact.gif"
+                width="554"
+                height="678"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+              <br /><br />
+              <img
+                src="https://media.tenor.com/7A_7xMBa1cgAAAAd/ganyu-genshin-impact.gif"
+                width="554"
+                height="678"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
+            <br /><br />
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer" style="background-color: #111111">
+      <div class="container">
+        <div class="section footer-top">
+          <div class="footer-brand" data-reveal="bottom">
+            <a href="#" class="logo">
+              <img
+                src="https://cdn2.steamgriddb.com/file/sgdb-cdn/logo_thumb/fd278a8f5571d3db556bd83198beb09a.png"
+                width="136"
+                height="46"
+                loading="lazy"
+                alt="Doclab home"
+              />
+            </a>
+
+            <ul class="contact-list has-after">
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="mail-open-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p>
+                    Email :
+                    <a href="mailto:contact@website.com" class="contact-link"
+                      >Genshin@&shy;gmail.com</a
+                    >
+                  </p>
+
+                  <p>
+                    MAIN :
+                    <a href="mailto:Info@mail.com" class="contact-link"
+                      >Admin@mail.com</a
+                    >
+                  </p>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div>
+                  <p>
+                    Office Telephone :
+                    <a href="tel:0029129102320" class="contact-link"
+                      >423523452345</a
+                    >
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-list" data-reveal="bottom">
+            <p class="headline-sm footer-list-title">About Us</p>
+
+            <p class="text">
+              "PlayStation Family Mark," "PS5 logo" and "PS4 logo" are
+              registered trademarks or trademarks of Sony Interactive
+              Entertainment Inc.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="text copyright">
+            &copy; Copyright © COGNOSPHERE. All Rights Reserved.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a
+                href="https://discord.com/invite/genshinimpact"
+                class="social-link"
+              >
+                <ion-icon name="logo-discord"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/RUGenshinimpact" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://genshin.hoyoverse.com/ru/" class="social-link">
+                <ion-icon name="logo-google"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/c/GenshinImpact"
+                class="social-link"
+              >
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

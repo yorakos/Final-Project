@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .head{
     position: relative;
     object-fit: cover;
@@ -16,17 +20,140 @@
     font-family: Roboto,arial,georgia,sans-serif;
     
 }
+.logo{
+  position: absolute;
+  width: 11%;
+  height: 10%;
+  top: 50px;
+  right: 50px;
 
-/* CSS */
+}
+.maain{
+  background-image: linear-gradient(to bottom right, #bf60d7, #ffffff);
+}
+
+.bigFirst{
+  
+  display: flex;
+
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  
+}
+.biggest{
+  
+ 
+  display: flex;
+
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center ;
+  text-align: left; 
+  margin-top: -5vw;
+  margin-left: 30vw;
+  width: 50%;
+  
+}
+.FORLINIYA{
+  border-left:3px solid rgb(255, 255, 255);
+margin-left: 50px;
+margin-top: -19px;
+}
+
+.flip-box1 {
+  background-color: transparent;
+  width: 19vw;
+  height: 14vw;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box1-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box1:hover .flip-box1-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box1-front, .flip-box1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+
+/* Style the back side */
+.flip-box1-back {
+  font-size:  15px; font-family: Candara;
+ 
+  transform: rotateY(180deg);
+}
+
+.flip-box2 {
+  background-color: transparent;
+  width: 19vw;
+  height: 14vw;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-left: 40px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box2-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box2:hover .flip-box2-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box2-front, .flip-box2-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+
+/* Style the back side */
+.flip-box2-back {
+  font-size:  15px; font-family: Candara;
+ 
+  transform: rotateY(180deg);
+}
+
 .button-86 {
   all: unset;
   width: 15vw;
-  height: 30px;
+  height: 2.5vw;
   font-size: 14px;
   background: transparent;
-  border: none;
+ 
   position: relative;
-  color: #fbfbfb;
+  color: #000000;
   cursor: pointer;
   z-index: 1;
   padding: 10px 20px;
@@ -58,7 +185,7 @@
   transform: translate(0%, 0%);
   width: 100%;
   height: 100%;
-  background: #232358;
+  background: #333d81;
   border-top-right-radius: 20px;
 }
 
@@ -66,7 +193,7 @@
   transform: translate(10px, 10px);
   width: 35px;
   height: 35px;
-  background: #434395;
+  background: #654caf;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-top-right-radius: 20px;
@@ -89,6 +216,3 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
-
-    
-    

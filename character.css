@@ -1,0 +1,144 @@
+body {
+    background-color: beige;
+    margin:0;
+    padding:0;
+}
+#onlythe {
+    
+    background-image: url(https://gameonow.com/wp-content/uploads/2021/06/genshin-impact-gorou-banner-release-date.jpg) ;
+   background-size: cover;
+}
+#onlyFor {
+    height: 50vw;
+    display: flex;
+   
+    background-image: url(https://i.pinimg.com/originals/6b/af/44/6baf44e8a0f3d49e24c9aa9ab03501db.gif);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+ul button {
+    color:rgb(255, 252, 252);
+    font-size: 7vw;
+}
+.astext {
+     background:none;
+     border:none;
+     margin:0;
+     padding:0;
+     cursor: pointer;
+     font-family: fantasy;
+     scroll-behavior: smooth;
+    
+}
+.astext:hover {
+     
+     transform: translateX(0.3em);
+     transition: 0.3s;
+}
+.astext:active {
+    color:rgb(121, 49, 49);
+}
+.astext:focus {
+    color:rgb(121, 49, 49);
+}
+:target {
+    color:rgb(121, 49, 49);
+}
+
+
+#name {
+ animation: fadeIn 10s; 
+ }
+ @keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+.ddd{
+display: flex;
+flex-direction: column;
+}
+#suret {
+        animation: fadein 2s;
+}
+.abilities {
+display:flex;
+}
+.but {
+display: inline-block;
+width:4vw;
+height:4vw;
+border:0.1vw solid gray;
+justify-content: space-around;
+cursor: pointer;
+font-family: fantasy;
+background:none;
+margin:0;
+padding:0;
+transition: background-color 1s ease-out 50ms
+}
+.but:hover {
+     background-color: #DFD8E3;
+     transition: 0.3s;
+}
+
+.relatedContent img {
+width:280px;height:200px
+}
+@keyframes color {
+0%   { background: #c07db8ad; }
+20%  { background: #b506069c; }
+40%  { background: #13a14cae; }
+60%  { background: #c77a0656; }
+80%  { background: #46006688; }
+}
+#forgiv:hover {
+   animation: color 12s infinite; 
+  
+}
+#forgiv:hover {
+display:block;
+}
+@media screen and (max-width: 1200px) {
+.fifth{
+    display: none;
+}
+}
+@media screen and (max-width: 1000px) {
+.forbut{
+    width:200px;
+    height: 300px;
+}
+.effect {
+   width: 180px;
+   height: 200px;
+}
+.relatedContent img {
+width:240px;height:160px
+}
+}
+@media screen and (max-width: 750px) {
+.forbut{
+    width:100px;
+    height: 200px;
+}
+.effect {
+   width: 20px;
+   height: 30px;
+}
+.effect p {
+    display: none;
+
+}
+.relatedContent img {
+width:100px;height:60px; 
+}   
+
+.forbut {
+margin-bottom:30px;
+ width:105px;
+ height:150px;
+}
+#miniP {
+font-size: 12px;
+}
+}
