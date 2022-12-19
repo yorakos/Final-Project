@@ -54,21 +54,3 @@ function reg_php(FirstName, LastName, Email, Password) {
     },
   });
 }
-
-var openBtn = document.getElementById("open-btn");
-var modalContainer = document.getElementById("containers");
-//var closeBtn = document.getElementById("close-btn");
-
-openBtn.addEventListener("click", function () {
-  modalContainer.style.display = "block";
-});
-
-closeBtn.addEventListener("click", function () {
-  modalContainer.style.display = "none";
-});
-
-window.addEventListener("click", function (e) {
-  if (e.target === modalContainer) {
-    modalContainer.style.display = "none";
-  }
-});
