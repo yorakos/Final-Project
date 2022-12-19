@@ -27,7 +27,7 @@
             system("firstmain.html");
             exit();
         } else {
-            echo "<div class='form'>
+            echo "<div class='form style='background-color: #00000086; border: 1px solid black''>
             <h3 style='background-color:red;width:500px; text-align:center; font-size:30px; color: white'>Required fields are missing.</h3><br/>
             <p class='link' style='width:500px; text-align:center; font-size:30px; color: Black'>Click here to <a href='registration.php' style='background-color: blue; font-size:30px; color: white; border-radius:10%'>Registration</a> again.</p>
                   </div>";
@@ -47,7 +47,7 @@
           system("firstmain.html");
            exit();
       } else {
-          echo "<div class='form'>
+          echo "<div class='form' style='background-color: #00000086; border: 1px solid black'>
                 <h3 style='background-color:red;width:500px; text-align:center; font-size:30px; color: white'>Incorrect Email/password.</h3><br/>
                 <p class='link' style='width:500px; text-align:center; font-size:30px; color: Black'>Click here to <a href='registration.php' style='background-color: blue; font-size:30px; color: white; border-radius:10%'>Login</a> again.</p>
                 </div>";
@@ -83,7 +83,7 @@
           <div class="overlay-panel overlay-left">
             <h1>Welcome Back!</h1>
             <p>
-              To keep connected with us please login with your personal info
+            Enter data to travel around the world of Genshin!
             </p>
             <button class="ghost" id="signIn" style="color: rgb(255, 255, 255)">
               Sign In
@@ -91,7 +91,7 @@
           </div>
           <div class="overlay-panel overlay-right">
             <h1>Hello, Friend!</h1>
-            <p>Enter your personal details and start journey with us</p>
+            <p>Welcome to the world of Genshin Impact</p>
             <button class="ghost" id="signUp" style="color: rgb(255, 255, 255)">
               Sign Up
             </button>
