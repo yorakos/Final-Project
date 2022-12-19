@@ -11,8 +11,8 @@ body {
   
       position: absolute;
       
-      top: 6%;
-      left: 43%;
+      top:59vw;
+      left: 60vw;
       text-transform: uppercase;
       color: rgb(26, 11, 84);
       width: 350px;
@@ -76,7 +76,7 @@ body{
   background: #ffffff;
 }
 section{
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +113,7 @@ section .text-container{
 section .text-container .text-box{
   margin: 20px;
   padding: 20px;
-  background: #0527be;
+  background: #f0f1f5;
 }
 section .text-container .text-box h3{
   font-size: 30px;
@@ -129,19 +129,26 @@ section .text-container .text-box h3{
   section .text-container{
     flex-direction: column;
   }
-  section h1{
-
-  }
+ 
 }
 
 .reveal{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 2s all ease;
 }
 
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
 }
+.footer {
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(37, 34, 34);
+    text-align: center;
+    
+  }
