@@ -6,99 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
-<style>
-    body {
-        background-color: beige;
-    }
-    #onlyFor {
-        
-        
-        height: 800px;
-        display: flex;
-        background-color: rgb(115, 31, 25);
-        background-image: url(https://i.pinimg.com/originals/6b/af/44/6baf44e8a0f3d49e24c9aa9ab03501db.gif);
-       background-size: contain;
-    }
-    ul button {
-        color:rgb(255, 252, 252);
-        font-size: 90px;
-    }
-    .astext {
-         background:none;
-         border:none;
-         margin:0;
-         padding:0;
-         cursor: pointer;
-         font-family: fantasy;
-         scroll-behavior: smooth;
-    }
-    .astext:hover {
-         
-         transform: translateX(0.3em);
-    }
-    .astext:active {
-        color:rgb(121, 49, 49);
-    }
-    .astext:focus {
-        color:rgb(121, 49, 49);
-    }
-    :target {
-        color:rgb(121, 49, 49);
-    }
-    @keyframes color {
-  0%   { background: #c07db8ad; }
-  20%  { background: #b506069c; }
-  40%  { background: #13a14cae; }
-  60%  { background: #c77a0656; }
-  80%  { background: #46006688; }
-  
-}
-#name {
-     animation: fadeIn 10s; 
-     }
-     @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-#suret {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
-}
-.astext {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
-}
-</style>
 <body>
     <div style="border-left: solid rgb(192, 188, 188); margin-left:50px;padding-top: 60px;">
         
@@ -129,6 +37,7 @@
         document.getElementById("suret").src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/df0i8p6-66404a6c-a1f4-4e9f-bf50-4f135c5471c1.png/v1/fill/w_1280,h_1587,strp/yae_miko_genshin_impact_character_render_by_deg5270_df0i8p6-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU4NyIsInBhdGgiOiJcL2ZcLzVlNTg5NmE1LTRhNzktNDk2YS1iZWE0LTgxZjI2Y2ZhMjY1MFwvZGYwaThwNi02NjQwNGE2Yy1hMWY0LTRlOWYtYmY1MC00ZjEzNWM1NDcxYzEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.rNLMXuf_g_kRCKDv9kOQhsG0V3HsCoDlg6A6sGBOliw";
         document.getElementById("onlyFor").style.backgroundImage ="url(https://i.pinimg.com/originals/05/59/94/05599424bb5a1b7819956d0288559697.gif)";
         document.getElementById("name").textContent="Yae Miko";
+       
         
         document.getElementById("onlyFor").style.backgroundColor="pink";
        document.getElementById("bio").textContent="A kitsune of many facets, Yae Miko oversees the Grand Narukami Shrine, owns the Yae Publishing House, and is Eternity's servant and friend.";
