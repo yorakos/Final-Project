@@ -225,5 +225,14 @@ section .text-container .text-box h3{
     transition: 0s;
     transform: translate(0, 5%);
   }
+  @media (max-width: 900px){
+    section gif{
+     width: 60%; height: 60%;
+    }
+    section .text-container{
+      flex-direction: column;
+    }
+   
+  }
   
   
