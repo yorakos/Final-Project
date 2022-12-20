@@ -66,10 +66,10 @@ margin-top: -19px;
   background-color: transparent;
   width: 19vw;
   height: 14vw;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-box1-inner {
   position: relative;
   width: 100%;
@@ -79,24 +79,21 @@ margin-top: -19px;
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-box1:hover .flip-box1-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-box1-front, .flip-box1-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 
-
-/* Style the back side */
 .flip-box1-back {
   font-size:  15px; font-family: Candara;
  
@@ -107,11 +104,11 @@ margin-top: -19px;
   background-color: transparent;
   width: 19vw;
   height: 14vw;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
   margin-left: 40px;
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-box2-inner {
   position: relative;
   width: 100%;
@@ -121,24 +118,20 @@ margin-top: -19px;
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-box2:hover .flip-box2-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-box2-front, .flip-box2-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 
-
-/* Style the back side */
 .flip-box2-back {
   font-size:  15px; font-family: Candara;
  
