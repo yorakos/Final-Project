@@ -7,13 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     </script>
+    <title>BEGINNER’S GUIDE</title>
+    <link
+    rel="shortcut icon"
+    href="https://play-lh.googleusercontent.com/vRd2gg6XmC3TRTM5wZZ8qwEc5LMUROh4whycLuiCSPB40tIxDYLT6V0BdCn486XiKQ0=w600-h300-pc0xffffff-pd"
+  />
     <style>
         div#tekst_sverhu_kartinki {
        position: relative;
-      
         }
 body {
     background-color: rgb(219, 219, 199);
+    margin-top: 0;
+    margin-left:0;
+    margin-right: 0;
+    
 }
 #soz {
    border-right: solid 2px yellow;
@@ -28,23 +36,19 @@ body {
 }
 @keyframes animated-text{
   from{width: 0px;}
-  to{width: 1380px;}
+  to{width: 1350px;}
 }
 
 /* cursor animations */
-
 @keyframes animated-cursor{
   from{border-right-color: blue;}
   to{border-right-color: transparent;}
 
 }
-.verticalLine {
-  border-left: solid rgb(192, 188, 188);
-  
-}
+
 .maincontent {
-    margin-left:400px;
-    width:600px;
+    margin-left:40vw;
+    width:60vw;
 
 }
 .maincontent h3 {
@@ -52,37 +56,219 @@ body {
     line-height:25px;
 
 }
+
 .hovEffect:hover {
-    background-color: rgb(213, 71, 71);
-    width: 600px;
-    height: 400px;
+  transform: scale(1.3); 
 }
-.forButton {
-    width:250px;height:30px; background-color: rgb(123, 154, 107); position: absolute;
+ .forButton {
+    width:20vw;height:3vw; background-color: rgb(123, 154, 107); position: absolute;
                 top: 10%;  
                 left: -5%; border-top-right-radius: 15px;border-bottom-right-radius: 15px;
                 text-align:center;    
 }
 .forButton a{
-    text-decoration:none
+    text-decoration:none;
 }
 .forButton:hover {
     transform: translateY(-0.4em);
     box-shadow: 0px 10px 20px rgb(74, 71, 71);
 }
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1000px) {
+
+}
+@media screen and (max-width: 750px) {
+  .forButton {
+    width:15vw;height:7vw; background-color: rgb(123, 154, 107); position: absolute;
+                top: 6%;  
+                 border-top-right-radius: 15px;border-bottom-right-radius: 15px;
+                text-align:center;    
+}
+.forButton a{
+    text-decoration:none;
+}
+.forButton:hover {
+    transform: translateY(-0.4em);
+    box-shadow: 0px 10px 20px rgb(74, 71, 71);
+}
+  #soz {
+    font-size: 20px;
+    letter-spacing: 2px;
+    animation: animated-text 1s steps(20) 0.5s 0.5 normal both,
+             animated-cursor 6000ms steps(10) infinite;
+
+}
+.maincontent h3 {
+    font-size: 12px;
+}
+.maincontent {
+    margin-right:-5%;
+    width:360px;
+    display:block;
+}
+.hovEffect img {
+ scale:0.6;
+ 
+} 
+iframe {
+  width: 200px;
+  height: 100px;
+}
+
+
+
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 500px;}
+}
+.hovEffect p {
+    text-align: start;
+}
+.forT:hover {
+     background-image: url("https://i.pinimg.com/originals/b0/4d/3a/b04d3a0946bbe86a2722ce7fc2f4f472.gif");
+}
+.forT {
+  width: 100%;
+  height: auto;
+}
+
+}
+.text:hover{
+  color:peru;
+  
+}
+.text {
+  width:70%;
+  margin-left: 12%;
+  align-items: center;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(37, 34, 34);
+  text-align: center;
+  
+}
+#related::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#related:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: all 1s ease;
+}
+#related::before {
+  content:"";
+  align-content: space-between;
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 20 20 20 20;
+  background: rgb(241, 215, 155);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+#related {
+
+  position: relative;
+  font-size: 1rem;
+  
+}
+#chan:hover {
+ 
+        background-image: url(https://i.pinimg.com/originals/3e/e7/45/3ee7459cfdbce3cce499d2fd0583f5a9.jpg);
+        transition: all 1s ease;
+        background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    scroll-behavior: smooth;
+}
+
+ @keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+#archon {
+        animation: fadein 2s;
+        scroll-behavior: smooth;
+}
+#tekst_sverhu_kartinki {
+       animation: fadein 2s;
+}
         </style>
         </head>
         <body>
-            <div class="verticalLine" style="margin-left:50px;padding-top: 60px;">
             <div id="tekst_sverhu_kartinki">
-                <div class="forButton"><a href="">GO TO ARTICLE LIST</a></div>
-                <img src="https://i.pinimg.com/originals/0f/91/bd/0f91bda2e9a8264fff6d2acd2e6c617f.jpg" style="object-fit:cover; width:1202px; height: 400px; font-family: Arial, Helvetica, sans-serif; ">
+                <div class="forButton"><a style="font-size: 1vw;"    href="https://yorakos.github.io/Final-Project/firstmain.html"> TO ARTICLE LIST</a></div>
+                <img id ="mainF" src="https://pbs.twimg.com/media/Et1mJXaVcAQYyfs.jpg:large" style="object-fit:cover; width:100%; height: 50%; font-family: Arial, Helvetica, sans-serif; ">
                 </div>
                <div class="city">
-                <h1 id="soz" style="font-family: Georgia, serif;; text-align: center; color:black; letter-spacing: -7px; font-size: 75px;"><strong>BEGINNER’S GUIDE</strong></h1>
-              </div>
-             
+                <a>06/02/22 </a><span style="font-size:50px"> . </span><span style="color:red; letter-spacing: 1px;" ><strong>ANNOUNCEMENTS</strong></span>
+                <p id="soz"><strong>BEGINNER’S GUIDE</strong></p>
+                <<p><strong></strong></p>
+                </div><div>
+                <div id="chan">
+                <img id = "archon"src="https://i0.wp.com/traveler.gg/wp-content/uploads/Kamisato-Ayato-1.png?fit=2154%2C1320&ssl=1" style="width:36vw; height:30vw; margin-left: 0.5vw; margin-top: -1vw;">
+            <img id = "archon"src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/denwb5a-5118901d-01d5-42b6-8884-9af2ae03cb36.png/v1/fill/w_1280,h_785,strp/ayaka_genshin_impact_portrait_render_by_deg5270_denwb5a-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZW53YjVhLTUxMTg5MDFkLTAxZDUtNDJiNi04ODg0LTlhZjJhZTAzY2IzNi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.gV84asuCKRzhUD58J0CSQfqq8sNl2ZEiX9982R-DjRM" style="width:36vw; height:30vw; margin-left: 12vw; margin-top: -1vw;">
+            </div>
+                <div><p id="related" style="font-size:2vw; text-align: center;"><strong>PICK UP EVERYTHING</strong></p></div>
+                <div class="text">
+                  <p style="font-size:1.5vw; text-align: center;font-family: Georgia, serif ;">As you walk around, you’ll notice sparkling environmental items just about everywhere. You have an inventory limit of 10,000, so just pick up everything you can. Flowers, food ingredients, and other items that might seem useless will be useful down the line to craft into various foods and power-ups for your characters.
+                    <div class="hovEffect" style="display:flex; justify-content: space-around;">
+                      <img id="kaz" onmouseover ="qabat30()" src="https://cdn.donmai.us/original/c8/f3/__kaedehara_kazuha_genshin_impact_drawn_by_anemolyl__c8f3a1585cc4401e68639aa1ebf2ed2a.gif" loading="lazy" style="width:20vw;height:20vw; border-radius: 5px;  margin-bottom: 2%;" onmouseover="smm()">
+                      </div></p>
                 </div>
-
+                <div><p id="related" style="font-size:2vw; text-align: center;"><strong>USE ELEMENTAL SIGHT TO FIND MISSING SEELIES</strong></p></div>
+                <div class="text">
+                  <p style="font-size:1.5vw; text-align: center;font-family: Georgia, serif ;">As you travel around Teyvat, you’ll notice these blue glowing creatures called Seelies. When you follow them, they’ll lead you to a base that they’ll sit in. Once you arrive, you’ll be rewarded with treasure. If you ever see one of these Seelie bases, but you can’t find the Seelie that belongs there, you can get a hint using Elemental Sight. A glowing blue stream will come from the base, pointing you in the direction of the Seelie.</p>
+                    <div class="hovEffect" style="display:flex; justify-content: space-around;">
+                      <img  id="uha" onmouseover ="qabat20()" src="https://cdn.donmai.us/original/3b/7b/__lumine_aether_paimon_slime_and_hilichurl_genshin_impact__3b7b1ab1dd65abee256ba8ec0f5140b7.gif" loading="lazy" style="width:23vw;height:20vw; border-radius: 5px;  margin-bottom: 2%;" onmouseover="smm()">
+                
+                      </div></p>
+                </div>
+                
+                <div><p id="related" style="font-size:2vw; text-align: center; margin-bottom: 4%;"><strong>HEAL UP AT STATUES OF THE SEVEN</strong></p></div>
+                <div class="text" >
+                  <p style="font-size:1.5vw; text-align: center;font-family: Georgia, serif ;">Eating food will heal and revive your party, but you can run out of it quickly if you’re not careful. Between fights, consider teleporting back to any of the Statues of the Seven. These are large statues where you donate Amenoculus, Geoculus, and Electroculus to power up your character. They’ll revive and heal your party members when you approach them.You can also manually heal your party by interacting with the statue and selecting “Statue’s Blessing.” Note that you can only heal so much — the amount the statue can heal will be depleted the more you do it — but it does replenish at a fairly quick rate, so don’t stress too much.</p>
+                    <div class="hovEffect" style="display:flex; justify-content: space-around;">
+                      <img  onmouseover ="qabat10()" id="aru" src="https://cdn.donmai.us/original/9e/12/__yae_miko_yae_miko_and_cheemsburger_genshin_impact_drawn_by_seseren__9e127ec896c0fbb6e0112d841cca63f6.gif" loading="lazy" style="width:23vw;height:20vw; border-radius: 5px;  margin-bottom: 2%;" onmouseover="smm()">
+                    </div>
+                      </div></p>
+                </div>
+                </div>
+                <div><p id="related" style="font-size:2vw; text-align: center; margin-bottom: 4%;"><strong>watch this video and support us with likes!</strong></p></div>
+                <div style="backgroud-image:url(https://i.pinimg.com/originals/19/41/64/194164d700735e36890fcb0ae6282c17.gif)"><iframe width="560" height="315" src="https://www.youtube.com/embed/AR2n2TsJuNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NHEE_-87mNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+                <hr>
+                <div class="footer" >
+    
+                  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/1280px-Genshin_Impact_logo.svg.png" style="width:17vw; height:6vw">
+                  <p style="font-size: 17px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">About Us</p>
+                  <a href="https://www.instagram.com/genshinimpact/"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/instagram_icon_138461.png" style="width:3vw; height:3vw"></a> 
+                  <a href="https://vk.com/genshinimpact"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/vk_icon_135042.png" style="width:3vw; height:3vw"></a>
+                  <a href="https://t.me/genshin_impact_ru_off"> <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/telegram_icon_131945.png" style="width:3vw; height:3vw"></a>
+                  <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q"> <img src="https://cdn.icon-icons.com/icons2/791/PNG/512/YOUTUBE_icon-icons.com_65487.png" style="width:3vw; height:3vw"></a>
+          </footer>
+                <script>
+                   var b=1;
+                  
+      function qabat20() {
+        if(b%2==1) {
+        document.getElementById("uha").src = "https://cdn.donmai.us/original/3b/7b/__lumine_aether_paimon_slime_and_hilichurl_genshin_impact__3b7b1ab1dd65abee256ba8ec0f5140b7.gif";
+        } else {
+          document.getElementById("uha").src = "https://cdn.donmai.us/original/85/5a/__lumine_aether_paimon_xiao_and_guoba_genshin_impact_drawn_by_shuangfeng__855a85f600d9d5aadf7b3572710e4d19.gif"
+        }
+      b++;
+      }
+      
+                </script>
         </body>
         </html>
