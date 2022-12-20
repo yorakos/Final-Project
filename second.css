@@ -65,7 +65,8 @@ body {
     animation: rotating 3s linear infinite;
   }
 
- *{
+  @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -81,18 +82,18 @@ section{
   align-items: center;
 }
 section:nth-child(1){
-  color: #e0ffff;
+  color: #ffffff;
   }
 section:nth-child(2){
   color: #42455a;
-  background: #e0ffff;
+  background: #ffffff;
 } 
 section:nth-child(3){
-  color: #e0ffff;
+  color: #ffffff;
 }
 section:nth-child(4){
   color: #42455a;
-  background: #e0ffff;
+  background: #ffffff;
 }
 section .container{
   margin: 90px;
