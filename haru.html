@@ -3,9 +3,237 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ACT OVERVIEW</title>
+    <link
+    rel="shortcut icon"
+    href="https://play-lh.googleusercontent.com/vRd2gg6XmC3TRTM5wZZ8qwEc5LMUROh4whycLuiCSPB40tIxDYLT6V0BdCn486XiKQ0=w600-h300-pc0xffffff-pd"
+  />
 </head>
+<style>
+       body {
+    margin:0;
+    padding:0;
+    background-color: rgb(127, 145, 223);
+}
+.city {
+
+position: absolute;
+
+top: 5%;
+right: 26%;
+text-transform: uppercase;
+color: white;
+width: 600px;
+padding: 10px;
+text-align: center;
+font-family: fantasy;
+border:3px solid white;
+border-color:white;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    
+}
+@media screen and (max-width: 1000px) {
+    .city {
+    width:400px;
+    height: 100px;
+}
+}
+@media screen and (max-width: 750px) {
+    .flex-container {
+        flex-direction: column;
+       justify-content: center;
+       flex-grow: 2rem;
+       flex-wrap: wrap;
+       flex-basis: 10%;
+  
+}
+    .mainn {
+        flex-direction: column;
+       justify-content: center;
+       flex-grow: 2rem;
+       flex-wrap: wrap;
+       flex-basis: 10%;
+
+}
+.city {
+    width:200px;
+    height: 200px;
+}
+#related li{
+    width: 160%;
+    
+}
+.forButton {
+    width:15vw;height:7vw; background-color: rgb(123, 154, 107); position: absolute;
+                top: 6%;  
+                 border-top-right-radius: 15px;border-bottom-right-radius: 15px;
+                text-align:left;    
+}
+.forButton:hover {
+    transform: translateY(-0.4em);
+    box-shadow: 0px 10px 20px rgb(74, 71, 71);
+}
+}
+.astext {
+     background:none;
+     border:none;
+     margin:0;
+     padding:0;
+     cursor: pointer;
+     font-family: fantasy;
+     scroll-behavior: smooth;
+     font-size: 100%;
+}
+.astext:hover {
+     transform: translateX(0.3em);
+     transition: 0.3s;
+}
+#related::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#related:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#related::before {
+  content:"";
+  align-content: space-between;
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 20 20 20 20;
+  background: rgb(241, 215, 155);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+#related {
+
+  position: relative;
+  font-size: 1rem;
+  
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(37, 34, 34);
+  text-align: center;
+  
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8088e3, 0 0 40px #314088, 0 0 50px #7abae1, 0 0 60px #59a7c1, 0 0 70px #7baee1;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #bcfd23, 0 0 40px #e7ff4d, 0 0 50px #273094, 0 0 60px #8181da, 0 0 70px #98affa, 0 0 80px #9079f0;
+  }
+}
+.city {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.sity {
+    animation: glow 1s ease-in-out infinite alternate;
+    color: white;
+    font-size: 140%;
+}
+.flex-container {
+  display: flex;
+}
+.sozd:hover {
+ color:rgb(255, 234, 0);
+}
+.forP{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.forButton {
+    width:15vw;height:3vw; background-color: rgb(123, 154, 107); position: absolute;
+                top: 6%;  
+                 border-top-right-radius: 15px;border-bottom-right-radius: 15px;
+                text-align:center;    
+}
+.forButton a{
+    text-decoration:none
+}
+.forButton:hover {
+    transform: translateY(-0.4em);
+    box-shadow: 0px 10px 20px rgb(74, 71, 71);
+}
+</style>
 <body>
-    <a>haru</a>
+    <div id="tekst_sverhu_kartinki">
+        <div class="forButton"><a style="font-size: 1vw;" href="https://yorakos.github.io/Final-Project/firstmain.html">GO TO ARTICLE LIST</a></div>
+        <img src="https://cdn.mos.cms.futurecdn.net/YS9QDJmRvjRSHhVbrCDQMa.jpg" style="object-fit:cover; width:100%; height: 50%;">
+       <div class="city">
+        <p style=" font-size:200%; color:white; text-align: center;margin-top: 2%; " >WHAT’S NEW IN GENSHIN EPISODE 5 ACT III?</p>
+            </div>
+            <img id = "archon"src="https://static.wikia.nocookie.net/genshinimpact/images/d/de/Statue_des_Sept_Mondstadt.png/revision/latest?cb=20210624175445&path-prefix=fr" style="width:40vw; height:40vw; margin-left: 0.5vw; margin-top: -22%;">
+            <img id = "archon"src="https://static.wikia.nocookie.net/gensin-impact/images/3/35/Statue_of_the_Seven_Liyue.png/revision/latest?cb=20220906231353" style="width:40vw; height:40vw; margin-left: 12vw; margin-top: -22%;">
+            <hr>
+          </div>
+          <div>
+          <p class="soz" STYLE="font-size:180%; color:white; font-family: fantasy;"><strong>Episode 5 Act III</strong></p>
+          <a style="font-family:fantasy">10/12/22 </a><span style="font-size:50px"> . </span><span style="color:#e7ff4d">ANNOUNCEMENTS</span>
+          <p class="forP" style="font-size:280%; font-family:fantasy; text-align: center;">GAME UPDATES</p>
+          </div>
+          <div class="mainn" style="display:flex; justify-content: space-between; margin-bottom: 5%;">
+            <div><img src="https://64.media.tumblr.com/3bb4407a1a3e322e6faa19a12433fec4/c2815bcb19b33e70-3a/s540x810/13d26edfef3cbb341d0943a9a06e29ba0a50a67c.gif" style="width:80%;height: 68%;"></div>
+            <div class="sozd"><p style="font-size:125%;font-family:fantasy">There are usually a number of Genshin Impact events running simultaneously, and they aren’t just in-game events. When a new Genshin Impact character joins the game, the devs launch a web event at the same time – players learn about the latest characters through an interactive story told through a web browser.</p>
+            </div><div><img src="https://upload-os-bbs.hoyolab.com/upload/2021/06/24/8042390/1c66b5abaac55caf6dbc00b775a94bb5_1088521179243943963.gif?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,gif" style="width:80%;height: 68%;"></div>
+        </div> 
+        <div id="related">
+        <p style="font-size:200%; margin-left:auto;margin-right: auto;" class="astext">Genshin Impact upcoming events:</p>
+        <ul style="width:20vw; margin-left: auto;margin-right: auto;">
+            <li><a class="astext">Misty Dungeon: Realm of Sand: in-game event – December 16 – December 19</a></li>
+            <li><a class="astext">Across the Wilderness: in-game event</a></li>
+            <li><a class="astext">Windtrace 3.3: in-game event</a></li>
+            <li><a class="astext">Leyline Overflow 3.3: in-game event</a></li>
+            <li><a class="astext">SEA Carnival Event</a></li>
+        </ul>
+        </div>
+        <div><img src="https://cdn.donmai.us/original/01/bd/__aether_genshin_impact_drawn_by_azhiichigo__01bd9fb2f02e7504ae604468fed6d1ef.gif" style="width:100%; height:50%; object-fit:cover"></div>
+       
+        <div id="related" >
+            <p style="font-size:200%; margin-left:auto;margin-right: auto; margin-top: 1%;" class="astext">Genshin Impact current events</p>
+            <ul style="width:20vw; margin-left: auto;margin-right: auto; font-size: 100%;">
+                <li><a class="astext">Stellar Rivers: in-game battle pass – December 7 – January 16</a></li>
+                <li><a class="astext">Character Test Run: in-game event (Wanderer, Itto, Faruzan, Gorou, and Yanfei) – December 7 until December 27</a></li>
+                <li><a class="astext">Akitsu Kimodameshi: in-game event – December 15 until January 2</a></li>
+                <li><a class="astext">Version 3.2 Strategy Guides Contest</a></li>
+                <li><a class="astext">Arataki Itto Fan Art Contest</a></li>
+            </ul>
+            </div>
+            <div class="flex-container" style="justify-content:center">
+                <div><img src="https://64.media.tumblr.com/1677a2f42e56c9fe1eb5b192be8fc0ac/6c9c7db5c4ec073e-29/s1280x1920/c5b6c6d9689efc16adca92f5f23496038835a39c.gif" style="width:60%; height:75%; border-radius: 100px;"></div>
+                <div class="sozd"><p style="font-size:100%; font-family:fantasy;">There are usually a number of Genshin Impact events running simultaneously, and they aren’t just in-game events. When a new Genshin Impact character joins the game, the devs launch a web event at the same time – players learn about the latest characters through an interactive story told through a web browser.</p>
+                </div><div><img src="https://64.media.tumblr.com/11099b9dbfad1dd54b3328e0f3c3b865/ad88662aeb35d800-59/s640x960/a46228ea813c26dfa09ada35512e081c5100c30c.gif" style="width:70%; height:75%; border-radius: 100px;"></div>
+            </div> 
+            <div class="flex-container" style="justify-content:center; margin-top: 4%;">
+                <div class="sity"><img  style="width:60%; height:75%; border-radius: 100px;" src="https://cdn.donmai.us/original/6f/b4/__diluc_genshin_impact_drawn_by_azhiichigo__6fb4eab770a29708c42b8b4434f443e8.gif"><br>Diluc</div>
+                <div class="sity"><img style="width:60%; height:75%; border-radius: 100px;" src="https://cdn.donmai.us/original/0d/9f/__raiden_shogun_genshin_impact_drawn_by_azhiichigo__0d9f4d222d8031c02b0284f214ee823b.gif"><br>Raiden</div>
+                <div class="sity"><img style="width:60%; height:75%; border-radius: 100px;" src="https://cdn.donmai.us/original/19/9a/__sangonomiya_kokomi_genshin_impact_drawn_by_azhiichigo__199afbac600931d7c451ca0d0d5abc73.gif"><br>Kokomi</div>
+              </div>
+              
+            <hr>
+        <div class="footer">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/1280px-Genshin_Impact_logo.svg.png" style="width:17vw; height:6vw">
+            <p style="font-size: 17px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">About Us</p>
+            <a href="https://www.instagram.com/genshinimpact/"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/instagram_icon_138461.png" style="width:3vw; height:3vw"></a> 
+            <a href="https://vk.com/genshinimpact"><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/vk_icon_135042.png" style="width:3vw; height:3vw"></a>
+            <a href="https://t.me/genshin_impact_ru_off"> <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/telegram_icon_131945.png" style="width:3vw; height:3vw"></a>
+            <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q"> <img src="https://cdn.icon-icons.com/icons2/791/PNG/512/YOUTUBE_icon-icons.com_65487.png" style="width:3vw; height:3vw"></a>
+    </footer>
 </body>
 </html>
